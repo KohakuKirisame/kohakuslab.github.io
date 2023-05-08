@@ -490,8 +490,8 @@ waline:
 
 # 弹幕 只对valine评论有效
 danmu:
-  on: false
-  loop: false # 设为true，则弹幕完了之后，继续查询评论接口，将该篇文章的评论再显示在弹幕里
+  on: true
+  loop: true # 设为true，则弹幕完了之后，继续查询评论接口，将该篇文章的评论再显示在弹幕里
   delay: 5000 # 每条弹幕之间出现的间隔时间
   speed: 40 # 弹幕运行的速度, 越小越快
 
@@ -511,7 +511,7 @@ archive:
 tag:
   title: 'tags'
   img: 'https://pic2.zhimg.com/80/v2-bf6c555e7c61a57ba4a1fd95a9a32975_1440w.jpg' # 标签页上面的图片
-  desc: '愿你如风，被人温柔以待'
+  desc: '我们一日日度过的所谓日常 ，其实可能是连续不断的奇迹'
   full: false # 标签页上面的图片是否全屏显示
   video: '' # 如果有值，则在屏幕大于920px的时候，全屏显示视频
   background: '' # red or rgba(255,255,255,0.8) or other color or url("http:xxx.png")
@@ -521,7 +521,7 @@ tag:
 tagDetail:
   title: 'tag'
   img: 'https://pic1.zhimg.com/80/v2-604a15cef201cf177943af2d915eb2e7_1440w.jpg?source=1940ef5c'
-  desc: '愿你如风，被人温柔以待' # 标签页详情上上面的图片上的文字
+  desc: '我们一日日度过的所谓日常 ，其实可能是连续不断的奇迹' # 标签页详情上上面的图片上的文字
   full: false
   video: ''
   background: '' # red or rgba(255,255,255,0.8) or other color or url("http:xxx.png")
@@ -530,7 +530,7 @@ tagDetail:
 categories:
   title: 'categories'
   img: 'https://pic2.zhimg.com/80/v2-7c496c95897fb15768593cc5170c8b1a_1440w.jpg?source=1940ef5c'
-  desc: '愿你如风，被人温柔以待'
+  desc: '我们一日日度过的所谓日常 ，其实可能是连续不断的奇迹'
   full: false
   video: ''
   background: '' # red or rgba(255,255,255,0.8) or other color or url("http:xxx.png")
@@ -540,7 +540,7 @@ categories:
 categoryDetail:
   title: 'category'
   img: 'https://pic3.zhimg.com/80/v2-98dcd81cb0d1fee52a807c13cedb8338_1440w.jpg?source=1940ef5c'
-  desc: '愿你如风，被人温柔以待'
+  desc: '我们一日日度过的所谓日常 ，其实可能是连续不断的奇迹'
   full: false
   video: ''
   background: '' # red or rgba(255,255,255,0.8) or other color or url("http:xxx.png")
@@ -693,7 +693,7 @@ highlight:
 
 # wordcount字数统计, 需要 npm i hexo-wordcount 安装
 wordcount:
-  on: false
+  on: true
 
 # 自己嵌入css或者script
 import:
