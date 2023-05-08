@@ -137,7 +137,7 @@ sidebar:
           unit: '篇'
         runtime:
           on: true
-          data: '2022/05/08'    # 填写建站日期
+          data: '2023/05/08'    # 填写建站日期
           text: '已运行时间：'
           unit: '天'
         wordcount:
@@ -403,15 +403,15 @@ bubble:
 
 # valine 评论 https://valine.js.org
 valine:
-  on: false
-  appid: 
-  appkey: 
-  avatar: '' # 匿名者头像选项 https://valine.js.org/avatar.html
-  placeholder: '客官，说点什么吧' # 评论内容输入框的 placeholder
+  on: on
+  appid: ozICJGGc4rhwJsJkOIvmyctb-gzGzoHsz
+  appkey: kq0ZhgdJJfdUwzwUsOOirt1k
+  avatar: retro # 匿名者头像选项 https://valine.js.org/avatar.html
+  placeholder: '留下存在的证明~' # 评论内容输入框的 placeholder
   master: '' # 博主标签识别，博主邮箱md5 可以去md5加密网站，例如 https://md5jiami.51240.com/ ，将自己的邮箱输入， 得到 32位小写 的字符串
   friends: [] # 小伙伴的 邮箱md5， 是个数组
-  requiredFields: [] # 设置必填项 ['nick', 'mail'] nick为昵称必填， mail为邮箱必填，建议设置必填，填写qq邮箱，会使用qq头像作为头像
-  backgroundImg: 'https://img.zcool.cn/community/01a253594c71cfa8012193a329a77f.gif' # 右下角背景图片
+  requiredFields: ['nick','mail'] # 设置必填项 ['nick', 'mail'] nick为昵称必填， mail为邮箱必填，建议设置必填，填写qq邮箱，会使用qq头像作为头像
+  backgroundImg: '' # 右下角背景图片
   backgroundColor: 'rgba(255,255,255,0.9)' # 背景颜色
 
 # twikoo评论
