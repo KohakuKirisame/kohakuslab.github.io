@@ -40,8 +40,8 @@ class Circle {
     }
   
     randomColor() {
-      const range = ['8', '9', 'A', 'B', 'C', 'D', 'E', 'F']
-      return '#' + this.randomArray(range) + this.randomArray(range) + this.randomArray(range) + this.randomArray(range) + this.randomArray(range) + this.randomArray(range)
+      const range=["#7bcbf5","#ebacb8","#ffffff"]
+      return this.randomArray(range)
     }
   
     randomRange(start, end) {
