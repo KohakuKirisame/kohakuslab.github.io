@@ -6,3 +6,8 @@ node_modules/
 public/
 .deploy*/
 _multiconfig.yml
+.idea/Blog.iml
+.idea/deployment.xml
+.idea/modules.xml
+.idea/php.xml
+.idea/vcs.xml
