@@ -39,6 +39,7 @@ Kohaku，取自《千与千寻》中赈早见琥珀主的罗马音“Nigihayami 
 
 # Contact
 
+- [个人群：682792836](https://qm.qq.com/cgi-bin/qm/qr?k=qpknXhzKKZhLG_ipDHsadezAcsYg75mD&jump_from=webapi&authKey=e5kQKsHy0iQ/ITLzAwCCFsXbs4Gxgt5+NkrN7lx7I1J9QB8D1hSL/4ShNjZL9NlS)<br>都能聊，没什么不能聊的
 - [QQ：2991251742](tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2991251742)
 - [GitHub](https://github.com/KohakuCao)
 - [Twitter（R-18注意）](https://twitter.com/kitsune6324)

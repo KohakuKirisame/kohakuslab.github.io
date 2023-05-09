@@ -231,9 +231,9 @@ donate:
   on: true
 donate_message: 你的赏识是我前进的动力
 # 支付宝打赏图片相对路径
-Alipay: ''
+Alipay: 'https://i.328888.xyz/2023/05/09/iQkrQv.jpeg'
 # 微信打赏图片相对路径
-WeChatpay: ''
+WeChatpay: 'https://i.328888.xyz/2023/05/09/iQkIjp.jpeg'
 
 # 分享功能
 sharejs: 
@@ -358,10 +358,10 @@ notice:
   title: '公告'
   background: 'url("https://img10.360buyimg.com/ddimg/jfs/t1/166587/8/21344/72069/6088c24fEda5fdeb6/f9730ab637b7ca47.png")' # url("xxx") or red or #000 or rgba() ..
   list: # list相当于数组对象，[{title:'xx',date: 'xx', url: 'xxx', color: 'red'}]根据自己实际情况，增加或者删除
-    # - title: '#博客更新到2.0了'
-    #   date: '2021-04-28'
-    #   url: '/archives'   # 可以为空, 也可以是本地页面地址如 '/archives'
-    #   color: red   # 字体颜色
+     - title: '爆！个人QQ群：682792836'
+       date: '2023-05-09'
+       url: 'https://qm.qq.com/cgi-bin/qm/qr?k=qpknXhzKKZhLG_ipDHsadezAcsYg75mD&jump_from=webapi&authKey=e5kQKsHy0iQ/ITLzAwCCFsXbs4Gxgt5+NkrN7lx7I1J9QB8D1hSL/4ShNjZL9NlS'   # 可以为空, 也可以是本地页面地址如 '/archives'
+       color: '#000'   # 字体颜色
     # - title: '#新增 轮播图支持三种模式了，功能也增强了 ~'
     #   date: '2021-04-28'
     #   url: 'http://baidu.com'
