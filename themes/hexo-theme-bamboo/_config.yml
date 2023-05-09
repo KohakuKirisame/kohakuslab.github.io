@@ -27,7 +27,7 @@ Github:
   url: https://github.com/KohakuCao
 
 # 网站logo
-logo:  # 为空则不显示
+logo: https://i.328888.xyz/2023/05/09/iQkkQb.png # 为空则不显示
 
 # 网站 favicon
 favicon: /favicon.ico # or .png .jpg .svg .gif .jpeg .ico
