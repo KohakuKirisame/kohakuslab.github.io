@@ -3,6 +3,9 @@ title: Python面向对象编程：概念与初步实践
 date: 2023-05-13 09:58:52
 tags: [Python, 面向对象编程, 编程]
 categories: Coding
+swiper: true
+img: https://i.328888.xyz/2023/05/14/VZOpkF.jpeg
+excerpt: 本文是基于北京航空航天大学大学计算机基础（理科类）课程大作业要求编写的，旨在帮助非代码类专业的学生迅速掌握面向对象编程的基本概念与初步实践。
 ---
 
 ## 前言
