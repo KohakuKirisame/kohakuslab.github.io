@@ -148,7 +148,7 @@ class ChildClass(Parent1, Parent2, Parent3):
 
 ### 多态
 
-多态（Polymorphism）是指同一个方法在不同情形下有不同的表现形式，下面看一个例子：
+**多态（Polymorphism）**是指同一个方法在不同情形下有不同的表现形式，下面看一个例子：
 
 ```python
 class C1:
