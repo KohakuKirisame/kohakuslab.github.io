@@ -231,9 +231,9 @@ donate:
   on: true
 donate_message: 你的赏识是我前进的动力
 # 支付宝打赏图片相对路径
-Alipay: 'https://i.328888.xyz/2023/05/09/iQkrQv.jpeg'
+Alipay: 'https://i.imgloc.com/2023/05/09/iQkrQv.jpeg'
 # 微信打赏图片相对路径
-WeChatpay: 'https://i.328888.xyz/2023/05/09/iQkIjp.jpeg'
+WeChatpay: 'https://i.imgloc.com/2023/05/09/iQkIjp.jpeg'
 
 # 分享功能
 sharejs: 
