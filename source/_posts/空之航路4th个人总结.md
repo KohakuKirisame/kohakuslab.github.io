@@ -8,7 +8,7 @@ swiper: true
 excerpt: 第四届空之航路是北航幻想乡近两年来最大的活动，也是全北航近年来规模数一数二的大型社团活动。其准备周期从2023年1月起到4月16日举办，超过三个月的时长。对空之航路做一个系统性的总结是有必要的，在这篇文章中既要谈经验，也要谈问题。
 ---
 {% gallery %}
-![空之航路4th 合影](https://i.328888.xyz/2023/05/10/iQaN2V.jpeg)
+![空之航路4th 合影](https://i.imgloc.com/2023/05/10/iQaN2V.jpeg)
 {% endgallery %}
 
 ## 前言
@@ -98,6 +98,6 @@ Galgame主要存在的问题，一个是最初使用的AI训练的配音声库�
 最后附两张出的魔理沙照骗
 
 {% gallery %}
-![清华·东方熙月华 场照](https://i.328888.xyz/2023/05/11/iYMRKt.jpeg)
-![在空之航路当主持人](https://i.328888.xyz/2023/05/11/iYMgio.jpeg)
+![清华·东方熙月华 场照](https://i.imgloc.com/2023/05/11/iYMRKt.jpeg)
+![在空之航路当主持人](https://i.imgloc.com/2023/05/11/iYMgio.jpeg)
 {% endgallery %}
