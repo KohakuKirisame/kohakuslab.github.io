@@ -2,7 +2,7 @@
 title: MVC模式简介
 date: 2023-05-17 14:30:05
 tags: [Python, 编程, MVC]
-img: https://i.328888.xyz/2023/05/17/VVARoa.jpeg
+img: https://i.imgloc.com/2023/05/17/VVARoa.jpeg
 ---
 
 ## 前言

@@ -2,7 +2,7 @@
 title: 关于我
 author: Kohaku
 date: 2023-05-09 00:10:19
-img: 'https://i.328888.xyz/2023/05/09/iQyXPk.jpeg'
+img: 'https://i.imgloc.com/2023/05/09/iQyXPk.jpeg'
 ---
 
 {% note quote, 无论是怎样的回忆，都是我们活过的人生。<br>
