@@ -1,7 +1,7 @@
 ---
 title: 关于我
 author: Kohaku
-date: 2023-05-09 00:10:19
+date: 2025-01-26 00:00:00
 img: 'https://i.imgloc.com/2023/05/09/iQyXPk.jpeg'
 ---
 
@@ -22,13 +22,13 @@ Kohaku，取自《千与千寻》中赈早见琥珀主的罗马音“Nigihayami 
 
 |  Language  | Level |
 |:----------:|:-----:|
-|    PHP     |   S   |
-|  HTML/CSS  |   S   |
-|   Python   |   S   |
-|    SQL     |   A   |
-| TypeScript |   A   |
-|   C/C++    |   B   |
-|   MATLAB   |   B   |
+|    PHP     |  +++  |
+|  HTML/CSS  |  +++  |
+|   Python   |  +++  |
+|    SQL     |  ++   |
+| TypeScript |  ++   |
+|   C/C++    |   +   |
+|   MATLAB   |   +   |
 
 ## Interests
 
