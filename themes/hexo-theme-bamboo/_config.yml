@@ -329,7 +329,7 @@ music:
   autoHide: true    # hide automaticaly
   server: netease   # require music platform: netease, tencent, kugou, xiami, baidu
   type: song    # require song, playlist, album, search, artist
-  id: 29457249    # require song id / playlist id / album id / search keyword
+  id: 537854163    # require song id / playlist id / album id / search keyword
   fixed: true       # 开启吸底模式，建议开启
   autoplay: true   # 是否自动播放, 有些浏览器会禁用自动播放，目前edge可以自动播放
   theme: '#42b983'
@@ -348,7 +348,7 @@ copyright:
 motto:
   on: true
   title: '所思'
-  content: '为什么会有这个博客？先人有言：一个人嗑雌二醇却不写博客，正如一个人写博客却不嗑雌二醇，注定只能度过相对失败的人生。'
+  content: '正因为梦与现实是不同的，所以才可以为了把梦变成现实而努力'
   background: 'rgba(255, 182, 193, 0.8)' # url("xxx") or red or #000 or rgba() ..
 
 # 首页公告
@@ -358,9 +358,9 @@ notice:
   title: '公告'
   background: 'url("https://img10.360buyimg.com/ddimg/jfs/t1/166587/8/21344/72069/6088c24fEda5fdeb6/f9730ab637b7ca47.png")' # url("xxx") or red or #000 or rgba() ..
   list: # list相当于数组对象，[{title:'xx',date: 'xx', url: 'xxx', color: 'red'}]根据自己实际情况，增加或者删除
-     - title: '爆！个人QQ群：682792836'
+     - title: '个人QQ群：628303296'
        date: '2023-05-09'
-       url: 'https://qm.qq.com/cgi-bin/qm/qr?k=qpknXhzKKZhLG_ipDHsadezAcsYg75mD&jump_from=webapi&authKey=e5kQKsHy0iQ/ITLzAwCCFsXbs4Gxgt5+NkrN7lx7I1J9QB8D1hSL/4ShNjZL9NlS'   # 可以为空, 也可以是本地页面地址如 '/archives'
+       url: 'https://qm.qq.com/cgi-bin/qm/qr?k=Rp3qWms9RD17A5IHoE3ddgb9Xrf13xqF&jump_from=webapi&authKey=FDe0WqSzxGQLcKFZJwLAvzXu8xN1IZXg4GTg7IcG7+BZ5fVPSged7aSnUoUqu0ex'   # 可以为空, 也可以是本地页面地址如 '/archives'
        color: '#000'   # 字体颜色
     # - title: '#新增 轮播图支持三种模式了，功能也增强了 ~'
     #   date: '2021-04-28'
