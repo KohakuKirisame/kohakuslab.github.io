@@ -1,0 +1,201 @@
+#home-container
+  width: 100%
+  height: max-content
+  padding: 1.8rem 0
+
+#home-content
+  width: 95%
+  max-width: var(--meow-main-width)
+  height: auto
+  margin: 0 auto
+  display: flex
+  flex-direction: hexo-config('sidebar.position') == 'left' ? row : row-reverse
+  gap: 1.3rem
+
+#home-main
+  flex: 3
+  max-width: 75%
+  height: max-content
+  display: flex
+  flex-direction: column
+  gap: 1.3rem
+
+.home-article
+  background-color: var(--background-color-transparent-1)
+  backdrop-filter: blur(3px)
+  border-radius: 1rem
+  box-shadow: var(--meow-card-shadow)
+  overflow: hidden
+  transition: all .3s ease
+  &:hover
+    transform: scale(1.015)
+
+.home-article-cover
+  position: relative
+  width: 100%
+  height: 9.5rem
+  border-radius: 1rem 1rem 0 0
+  overflow: hidden
+  img
+    width: 100%
+    height: 100%
+    object-fit: cover
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+
+.home-article-content
+  padding: 1.4rem 2.2rem
+
+.home-article-title
+  margin: .2rem 0 .6rem
+  display: flex
+  flex-wrap: nowrap
+  align-items: flex-start
+  gap: .5rem
+  overflow: hidden
+  line-height: 2rem
+  a
+    font-size: 1.5rem
+    font-weight: bold
+    color: var(--font-color)
+    &:hover
+      color: var(--theme-color)
+
+.home-article-encrypt
+  display: flex
+  align-items: center
+  height: 2rem
+  .icon
+    height: 1.35rem
+
+.home-article-sticky
+  background-color: var(--theme-color)
+  padding: 0 .5rem
+  border-radius: .5rem
+  color: var(--link-hover-font-color)
+  height: 2rem
+  white-space: nowrap
+
+.home-article-excerpt
+  text-align: justify
+  font-size: 1.05rem
+  margin: .9rem 0
+
+.home-article-info-container
+  display: flex
+  align-items: center
+  justify-content: space-between
+  font-size: .95rem
+  gap: .5rem
+
+.home-article-info
+  max-width: 70%
+  display: flex
+  align-items: center
+  flex-wrap: nowrap
+  gap: .8rem
+  overflow: hidden
+  a, span, &
+   color: var(--font-color-light-1)
+  a:hover
+    color: var(--theme-color)
+    &:after
+      color: var(--font-color-light-1)
+  .icon
+    opacity: .55
+    height: 1.1rem
+  >div
+    display: flex
+    align-items: center
+    gap: .3rem
+
+body[data-mode="dark"] .home-article-info .icon
+  filter: invert(100%)
+
+.home-article-date span
+  white-space: nowrap
+
+.home-article-categories a
+  white-space: nowrap
+  text-overflow: ellipsis
+  &:not(:last-child):after
+    content: ', '
+
+.home-article-tags a
+  white-space: nowrap
+  text-overflow: ellipsis
+  &:not(:last-child):after
+    content: ' | '
+
+.read-more-btn
+  color: var(--font-color-light-1)
+  white-space: nowrap
+  &:hover
+    color: var(--theme-color)
+
+if hexo-config('home.cover_position') == 'left'
+  .home-article-cover
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    width: 33%
+    height: 100%
+    border-radius: 0
+    img
+      position: static
+      transform: none
+  .home-article-content[cover='']
+      margin-left: 33%
+  .home-article-info
+    max-width: 65%
+
++meow-smallscreen()
+  #home-content
+    flex-direction: column
+    if hexo-config('sidebar.show_on_small_screen')
+      flex-direction: column-reverse
+  
+  #home-main
+    max-width: 100%
+    flex: 1
+  
+  .home-article-title
+    line-height: 1.5rem
+    a
+      font-size: 1.2em
+  
+  .home-article-encrypt
+    height: 1.5rem
+    .icon
+      height: 1.2em
+
+  .home-article-sticky
+    height: 1.5rem
+  
+  .home-article-excerpt
+    font-size: 1em
+    margin: .35rem 0
+  
+  .home-article-categories, .home-article-tags
+    visibility: hidden
+
+  .home-article-info-container
+    font-size: .9em
+  
+  .home-article-cover
+    height: 9rem
+  
+  .home-article-content
+    padding: .5rem 1.8rem
+    margin: .5rem 0
+  
+  if hexo-config('home.cover_position') == 'left'
+    .home-article
+      display: block
+    .home-article-cover
+      height: 9rem
+      img
+        position: absolute
+        transform: translateY(-50%)

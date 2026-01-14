@@ -1,0 +1,59 @@
+.markdown
+  line-height: $meow-line-height-post
+  a:not(.normal)
+    color: var(--theme-color)
+    position: relative
+    &:after
+      content: ''
+      position: absolute
+      left: 0
+      bottom: -1.2px
+      display: block
+      height: 2px
+      width: 0
+      background-color: var(--theme-color-light-2)
+      transition: width .5s ease
+    &:hover:after
+      width: 100%
+
+  ul
+    padding-left: 1em
+    line-height: 1.8em
+
+  ol
+    padding-left: 1em
+    line-height: 1.8em
+  
+  ul, ol
+    li
+      margin: .5em 0
+    li:has(ul)
+      margin: 1em 0
+    li:has(ol)
+      margin: 1em 0
+    ul, ol
+      >li
+        margin: .5em 0
+  
+  h1,h2,h3,h4,h5,h6
+    &:before
+      content: '#'
+      margin-right: .5rem
+      color: var(--font-color-light-3)
+      transition: color .2s ease-in-out
+    &:hover:before
+      color: var(--theme-color)
+  
+  img
+    display: block
+    margin: 1rem auto
+    max-width: 100%
+    object-fit: contain
+    border-radius: hexo-config('image.rounded_corners') ? .8rem : none
+  
+  img:not([no-view]):not(.noview)
+    &:hover
+      box-shadow: var(--meow-card-shadow)
+  
+  .img-caption img
+    margin: 0 auto

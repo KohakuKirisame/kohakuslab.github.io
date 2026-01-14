@@ -1,0 +1,133 @@
+@keyframes fade {
+  0%, 100% {
+    opacity: 1
+  }
+  50% {
+    opacity: 0.3
+  }
+}
+
+@keyframes bounce {
+  0%, 50%, 100% {
+    transform: translateY(0)
+    -webkit-transform: translateY(0)
+  }
+  25% {
+    transform: translateY(-3px)
+    -webkit-transform: translateY(-3px)
+  }
+  75% {
+    transform: translateY(3px)
+    -webkit-transform: translateY(3px)
+  }
+}
+
+@keyframes beat {
+  0%, 100% {
+    transform: scale(1)
+    -webkit-transform: scale(1)
+  }
+  50% {
+    transform: scale(1.05)
+    -webkit-transform: scale(1.05)
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0)
+    -webkit-transform: rotate(0)
+  }
+  100% {
+    transform: rotate(360deg)
+    -webkit-transform: rotate(360deg)
+  }
+}
+
+@keyframes run-bounce {
+  0% {
+    transform: translateX(0)
+    -webkit-transform: translateX(0)
+  }
+  25% {
+    transform: translateX(-40px) translateY(-35px)
+    -webkit-transform: translateX(-40px) translateY(-35px)
+  }
+  50% {
+    transform: translateX(-100px) translateY(-60px)
+    -webkit-transform: translateX(-100px) translateY(-60px)
+  }
+  75% {
+    transform: translateX(-160px) translateY(-35px)
+    -webkit-transform: translateX(-160px) translateY(-35px)
+  }
+  100% {
+    transform: translateX(-200px)
+    -webkit-transform: translateX(-200px)
+  }
+}
+
+@keyframes expand-width {
+  0% {
+    width: 10%
+  }
+  100% {
+    width: 100%
+    left: 0
+  }
+}
+
+@keyframes expand-width-to-right {
+  0% {
+    width: 0
+  }
+  100% {
+    width: 100%
+  }
+}
+
+@keyframes move-to-right {
+  0% {
+    transform: translateX(0)
+    -webkit-transform: translateX(0)
+  }
+  100% {
+    transform: translateX(2px)
+    -webkit-transform: translateX(2px)
+  }
+}
+
+@keyframes show-up {
+  0% {
+    transform: translateY(.9rem)
+    -webkit-transform: translateY(.9rem)
+    opacity: 0
+  }
+  100% {
+    transform: translateY(0)
+    -webkit-transform: translateY(0)
+    opacity: 1
+  }
+}
+
+@keyframes show-scale {
+  0% {
+    transform: scale(0)
+    -webkit-transform: scale(0)
+    opacity: 0
+  }
+  100% {
+    transform: scale(1)
+    -webkit-transform: scale(1)
+    opacity: 1
+  }
+}
+
+@keyframes show-ease {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
