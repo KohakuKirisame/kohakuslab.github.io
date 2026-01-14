@@ -1,4 +1,5 @@
 ---
-title: friends
-date: 2023-05-09 00:10:12
+title: 🍻Friends
+date: 2025-01-06 22:32:58
+type: friends
 ---
