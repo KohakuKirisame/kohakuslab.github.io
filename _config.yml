@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Kohaku的实验室
+title: Kohaku's Lab
 subtitle: ''
 description: ''
 keywords:
-author: Kohaku
-language: zh-CN
+author: Kohaku Kirisame
+language: en
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: bamboo
+theme: meow
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

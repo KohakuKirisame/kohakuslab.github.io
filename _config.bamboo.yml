@@ -64,7 +64,7 @@ sidebar:
       header:
         icon: fas fa-list
         icon_color: # 标题字体颜色
-        title: 本文目录
+        title: Content
       before: number # number为序号，可以是自定义表情字符
       heading: h2, h3, h4 # h2,3,4标题会在目录显示，可以加上 ,h5则h5标题也会显示在目录里
       collapseDepth: 20 # 折叠深度, 0则会折叠，0-6即可, 20相当于不折叠
@@ -77,7 +77,7 @@ sidebar:
       header:
         icon: fas fa-folder-open
         icon_color: # 标题字体颜色
-        title: 文章分类
+        title: Category
         url: /blog/categories/
     # ---------------------------------------
     # tagcloud widget
@@ -88,7 +88,7 @@ sidebar:
       header:
         icon: fas fa-tags
         icon_color:
-        title: 热门标签
+        title: Tags
         url: /tags/
       min_font: 14
       max_font: 24
@@ -106,7 +106,7 @@ sidebar:
       header:
         icon: fas fa-book
         icon_color:
-        title: 最新文章
+        title: Newest
         url: /tags/
     # ---------------------------------------
     # side_archives widget
@@ -121,7 +121,7 @@ sidebar:
       header:
         icon: fas fa-archive
         icon_color: red
-        title: 归档
+        title: Archives
     # ---------------------------------------
     # side_webinfo widget
     side_webinfo:
@@ -129,36 +129,36 @@ sidebar:
       order:
       header:
         icon: fas fa-chart-line
-        title: 站点信息
+        title: Blog Info
       type:
         article:
           on: true
-          text: '文章数目：'
-          unit: '篇'
+          text: 'Posts：'
+          unit: ' '
         runtime:
           on: true
           data: '2023/05/08'    # 填写建站日期
-          text: '已运行时间：'
-          unit: '天'
+          text: 'Online：'
+          unit: 'Days'
         wordcount:
           on: true
-          text: '本站总字数：'   # 需要启用 wordcount
-          unit: '字'
+          text: 'Total words：'   # 需要启用 wordcount
+          unit: ' '
         visitcounter:
           service: busuanzi # only busuanzi
           siteuv:
             on: true
-            text: '本站访客数：'
-            unit: '人'
+            text: 'Visitors：'
+            unit: ' '
           sitepv:
             on: true
-            text: '本站总访问量：'
-            unit: '次'
+            text: 'Views：'
+            unit: ' '
         lastupd:
           on: true
           friendlyShow: true    # 更友好的时间显示
-          text: '最后活动时间：'
-          unit: '日'
+          text: 'Last acitive：'
+          unit: ' '
 
 # 页面刷新时预加载动画
 preloader:
@@ -186,7 +186,7 @@ swiper:
   defaultImg: 'https://s.kohaku.icu/2025/01/9111a07906134a9397a9725101a665b7.jpeg' # 图片，没有则随机选取
   defaultVideo: '' # video，min-width:992px show
   defaultVideoLoadingImg: 'https://img14.360buyimg.com/ddimg/jfs/t1/175057/18/19582/882056/60ee7ac8Ef0045710/202d2ad878684a3b.gif' # video loading img -- use .gif img, 视频预加载动画，使用gif图片作为loading，为空则视频没有预加载动画
-  defaultTile: 'Kohaku的实验室' # 标题
+  defaultTile: 'Kohaku's Lab'' # 标题
   defaultDesc: ['君たちに 導きの青い星が輝かんどを', 'どれだけ離れも 聞こえる My Dearest Song'] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
   defaultLeftBtnText: '' # 左边按钮文字, 空字符串则不显示
   defaultLeftBtnLink: 'https://yuang01.gitee.io/2021/02/08/hexo-theme-bamboo-new/' # 左边按钮链接
@@ -229,7 +229,7 @@ show_count: true
 # 打赏功能
 donate:
   on: true
-donate_message: 你的赏识是我前进的动力
+donate_message: Donate for our AI works!
 # 支付宝打赏图片相对路径
 Alipay: 'https://i.imgloc.com/2023/05/09/iQkrQv.jpeg'
 # 微信打赏图片相对路径
@@ -260,8 +260,8 @@ postNav:
 # 复制成功提示
 copy:
   on: true
-  title: '成功'
-  content: '代码已复制，请遵守相关授权协议。'
+  title: 'Success!'
+  content: 'Code copied to clipboard. Please follow the rules for reprinting.'
 
 # 输入框打字特效
 inputEffects:
@@ -355,8 +355,8 @@ motto:
 notice:
   on: true
   seamless: false # 为true时，则无缝不停止滚动，false是会停一下的滚动
-  title: '公告'
-  background: 'url("https://img10.360buyimg.com/ddimg/jfs/t1/166587/8/21344/72069/6088c24fEda5fdeb6/f9730ab637b7ca47.png")' # url("xxx") or red or #000 or rgba() ..
+  title: 'Announcement'
+  background: 'rgba(255,255,255,0.8)' # url("xxx") or red or #000 or rgba() ..
   list: # list相当于数组对象，[{title:'xx',date: 'xx', url: 'xxx', color: 'red'}]根据自己实际情况，增加或者删除
     - title: '个人QQ群：628303296'
       date: '2023-05-09'
