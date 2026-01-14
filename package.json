@@ -9,10 +9,10 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "7.3.0"
+    "version": "8.1.1"
   },
   "dependencies": {
-    "hexo": "^7.3.0",
+    "hexo": "^8.1.1",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-feed": "^3.0.0",
@@ -27,5 +27,10 @@
     "hexo-theme-bamboo": "^3.3.12",
     "hexo-theme-landscape": "^1.0.0",
     "hexo-wordcount": "^6.0.1"
+  },
+  "overrides": {
+    "hexo-permalink-pinyin": {
+      "transliteration": "^2.6.0"
+    }
   }
 }
