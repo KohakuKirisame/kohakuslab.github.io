@@ -13,7 +13,7 @@ info:
   # Site Logo
   logo: https://s.kohaku.icu/2025/01/4a2273327952d890e7bd0d2a4662e7f9.gif # assets/images/Hexo-Theme-MEOW.png
   # Author Avatar
-  avatar: 
+  avatar: https://avatars.githubusercontent.com/u/26038081
   # Datetime of when this website was built
   start_date: 2023-05-08 00:00:00 # Format should be as same as date_format and time_format of root config
 
@@ -59,12 +59,12 @@ menu:
 
 # Search Function
 search:
-  enable: false # Whether to enable search function
+  enable: true # Whether to enable search function
   type: local # Search system type, support: local
   # Local Search
   local:
     # Show top n results per article, show all results by setting to -1
-    top_n_per_article: 1
+    top_n_per_article: -1
     # Preload the search data when the page loads
     preload: false
 
@@ -80,7 +80,7 @@ banner:
   # Banner avatar (not at homepage)
   avatar:
     type: site # site(logo) or author(avatar) or false
-    shape: 1 # Shape of avatar. 1(normal) or 2(circle)
+    shape: 2 # Shape of avatar. 1(normal) or 2(circle)
     border: false # Whether to add border to avatar
   # Banner title
   title:
@@ -93,6 +93,7 @@ banner:
     text:
       - "君たちに 導きの青い星が輝かんどを"
       - "どれだけ離れも 聞こえる My Dearest Song"
+      - "狐の鉤爪を解き放て！"
     effect: true # Typewriter effect, true or false(only show the first text).
     type_speed: 128 # Typing speed (ms)
     back_speed: 96 # Backing speed (ms)
@@ -119,15 +120,15 @@ sidebar:
       emoji: 🐱 # false or emoji
       desc: # Describe the status
     link: /about # Url for image clicking
-    desc: # Describe yourself or say something
+    desc: I'll light my own path. # Describe yourself or say something
     statistic: true # Whether to show the total number of articles, categories and tags
     social: # Social profiles
-      enable: false # Whether to show social module
+      enable: true # Whether to show social module
       list: # Social name: social icon || social link
-        # email: brand-mail || contact@jumao.simplelogin.com
-        # github: brand-github || https://github.com/chanwj
+        email: brand-mail || kohaku@buaa.edu.cn
+        github: brand-github || https://github.com/KohakuKirisame
   # Show announcement card, false or announcement text, markdown available
-  announcement:
+  announcement: Wow！
   # Links card
   links:
     enable: true # Whether to show additional links
