@@ -19,13 +19,15 @@
     "hexo-generator-index": "^4.0.0",
     "hexo-generator-search": "^2.4.3",
     "hexo-generator-tag": "^2.0.0",
+    "hexo-github-card-inline": "^1.1.0",
     "hexo-permalink-pinyin": "^1.1.0",
     "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-marked": "^7.0.0",
+    "hexo-renderer-markdown-it-plus": "^1.0.6",
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
-    "hexo-wordcount": "^6.0.1"
+    "hexo-wordcount": "^6.0.1",
+    "markdown-it-cjk-breaks": "^2.0.0"
   },
   "overrides": {
     "hexo-permalink-pinyin": {

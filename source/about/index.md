@@ -1,8 +1,9 @@
 ---
-title: 关于我
-author: Kohaku
+title: About Me
+author: Kohaku Kirisame
 date: 2025-01-26 00:00:00
 img: 'https://i.imgloc.com/2023/05/09/iQyXPk.jpeg'
+comment: true
 ---
 
 ## About
@@ -14,6 +15,8 @@ Kohaku，取自《千与千寻》中赈早见琥珀主的罗马音“Nigihayami 
 - Communicate in 汉语/English/日本語/Русский язык
 
 ## Coding
+
+{% githubCard user:KohakuKirisame %}
 
 |  Language  | Level |
 |:----------:|:-----:|
@@ -35,6 +38,5 @@ Kohaku，取自《千与千寻》中赈早见琥珀主的罗马音“Nigihayami 
 
 ## Contact
 
-- [个人群：628303296](https://qm.qq.com/cgi-bin/qm/qr?k=Rp3qWms9RD17A5IHoE3ddgb9Xrf13xqF&jump_from=webapi&authKey=FDe0WqSzxGQLcKFZJwLAvzXu8xN1IZXg4GTg7IcG7+BZ5fVPSged7aSnUoUqu0ex)
-- [QQ：2991251742](tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2991251742)
+- [Email](mailto:kohaku@buaa.edu.cn)
 - [GitHub](https://github.com/KohakuCao)

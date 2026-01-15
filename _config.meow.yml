@@ -15,7 +15,7 @@ info:
   # Author Avatar
   avatar: https://avatars.githubusercontent.com/u/26038081
   # Datetime of when this website was built
-  start_date: 2023-05-08 09:00:00 # Format should be as same as date_format and time_format of root config
+  start_date: 2023-05-08 23:00:00 # Format should be as same as date_format and time_format of root config
 
 # Theme Color & Mode
 color:
@@ -128,13 +128,14 @@ sidebar:
         email: brand-mail || kohaku@buaa.edu.cn
         github: brand-github || https://github.com/KohakuKirisame
   # Show announcement card, false or announcement text, markdown available
-  announcement: Checkout AAAI Poster！Jan. 22nd, 2026 HAI Poster Session.
+  announcement: Checkout AAAI Poster! Jan. 22nd, 2026 HAI Poster Session.
   # Links card
   links:
     enable: true # Whether to show additional links
     title: Links # The title of links card
     list: # List of links. link name: url
-       📦 Meow's Repository: https://github.com/chanwj/hexo-theme-meow
+      ORCID: https://orcid.org/0009-0001-4310-1544
+      Google Scholar: https://scholar.google.com/citations?user=Mhf15JYAAAAJ
   # Categories card
   categories:
     enable: true # Whether to show categories card
@@ -175,13 +176,13 @@ tag:
 # Posts Customization
 post:
   excerpt_length: 200 # Max length of auto excerpt
-  wordcount: false # Whether to show post wordcount
+  wordcount: true # Whether to show post wordcount
   # Reading time
   min2read:
-    enable: false # Whether to show estimated reading time
+    enable: true # Whether to show estimated reading time
     cn: 350 # Reading speed of Chinese
     en: 200 # Reading speed of English
-  view: false # Whether to display post view data
+  view: true # Whether to display post view data
   font_size: 16px # Font size of posts with unit
   font_size_small: 14px # Font size of posts with unit on small screen
   indent: false # Whether to indent the first line of paragraph in post by 2em
@@ -195,11 +196,11 @@ post:
   # Post reward module
   reward:
     enable: true # Whether to show post reward module
-    outer_text: # Text under reward button
-    inner_text: # Text in reward module
+    outer_text: Scholarship for a healthier future of the world # Text under reward button
+    inner_text: Donate # Text in reward module
     # Credits list
     reward_list:
-      enable: true # Whether to show credits list link
+      enable: false # Whether to show credits list link
       link: # Credits list link url
   # Post copyright module
   copyright:
@@ -234,7 +235,7 @@ markdown:
 
 # Page View Counting
 page_view:
-  enable: false # Whether to show page view statistic
+  enable: true # Whether to show page view statistic
   url: https://events.vercount.one/js # Counter API url
   site_pv: true # Site's page view
   site_uv: true # Site unique visitor
@@ -245,7 +246,7 @@ footer:
   icon: 💗 # Emoji or false
   author_link: /about # Url for the link of author
   runtime: true # Whether to show website running time
-  statistic: false # Whether to show site statistics(total articles & total wordcount)
+  statistic: true # Whether to show site statistics(total articles & total wordcount)
   # Site register info(e.g. ICP)
   register_info:
     enable: false # Whether to show register info
@@ -255,14 +256,16 @@ footer:
 # Reward Customization
 reward:
   # QRcode list, false or QRcode title: QRcode image url
-  qrcode: false
+  qrcode:
+    WeChat Pay: https://s.kohaku.icu/2026/01/1768402958.png
+    Alipay: https://s.kohaku.icu/2026/01/1768402943.png
   # Text link list, false or Link title: link url
   link: false
 
 # Share Customization
 share:
   notify: false # Whether to enable notification when copy text(Ctrl+C) or pressing F12
-  share_text: "🐱Share From Kohaku's Lab" # Text attached to the copied information
+  share_text: 🐱Share From Kohakus Lab # Text attached to the copied information
 
 # Essay Page
 essay:

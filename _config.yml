@@ -4,7 +4,7 @@
 
 # Site
 title: Kohaku's Lab
-subtitle: ''
+subtitle: 狐の鉤爪を解き放て
 description: ''
 keywords:
 author: Kohaku Kirisame
@@ -124,9 +124,9 @@ math:
     tags: none
 
   katex:
-    enable: false
+    enable: true
     # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
-    copy_tex: false
+    copy_tex: true
 
 mathjax:
   tags: none # or 'ams' or 'all'
@@ -139,3 +139,13 @@ mathjax:
   extension_options: {}
     # you can put your extension options here
   # see http://docs.mathjax.org/en/latest/options/input/tex.html#tex-extension-options for more detail
+
+markdown:
+  render:
+    html: true
+    xhtmlOut: true
+    breaks: false
+    linkify: false
+    typographer: true
+  plugins:
+    - markdown-it-cjk-breaks
