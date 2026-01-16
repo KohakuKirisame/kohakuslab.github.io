@@ -14,7 +14,7 @@ Preferred name: Kohaku Kirisame
 
 (She/Her)
 
-Kohaku, inspired by Nigihayami Kohakunushi from *Spirited Away*, means "amber". Kirisame comes from Kirisame marisa in the *Touhou Project* series.
+Kohaku, inspired by Nigihayami Kohakunushi from *Spirited Away*, means "amber". Kirisame comes from Kirisame Marisa in the *Touhou Project* series.
 
 - Undergraduate in Chemical Biology & Minor in Biomedical Engineering
 - Research interest: AI for Science, ML for Biology, Bioinformatics, Computational Biology, Multi-omics.
