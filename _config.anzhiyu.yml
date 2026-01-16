@@ -8,14 +8,16 @@ menu:
 #     友人帐: /link/ || anzhiyu-icon-link
 #     朋友圈: /fcircle/ || anzhiyu-icon-artstation
 
-   Message Board: /comments/ || anzhiyu-icon-envelope
+   Message Board:
+     Message Board: /comments/ || anzhiyu-icon-envelope
 
 #   我的:
 #     音乐馆: /music/ || anzhiyu-icon-music
 #     追番页: /bangumis/ || anzhiyu-icon-bilibili
 #     相册集: /album/ || anzhiyu-icon-images
 #     小空调: /air-conditioner/ || anzhiyu-icon-fan
-   PhotoLib: https://500px.com/p/kohaku6324 || anzhiyu-icon-images
+   PhotoLib:
+     500px: https://500px.com/p/kohaku6324 || anzhiyu-icon-images
    About:
      Me: /about/ || anzhiyu-icon-paper-plane
      # 闲言碎语: /essay/ || anzhiyu-icon-lightbulb
@@ -23,20 +25,15 @@ menu:
 
 # nav相关配置
 nav:
-  enable: false
+  enable: true
   travelling: false
-  clock: false
+  clock: true
   menu:
-    - title: 网页
+    - title: Web
       item:
-        - name: 博客
-          link: https://hexo.anheyu.com/
-          icon: /img/favicon.ico
-    - title: 项目
-      item:
-        - name: 安知鱼图床
-          link: https://image.anheyu.com/
-          icon: https://image.anheyu.com/favicon.ico
+        - name: Blog
+          link: https://kohaku.icu/
+          icon: /favicon.ico
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
