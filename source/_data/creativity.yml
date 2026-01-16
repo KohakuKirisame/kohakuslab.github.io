@@ -1,0 +1,41 @@
+- class_name: Skills
+  creativity_list:
+    - name: Java
+      color: "#fff"
+      icon: https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@13.20.0/icons/openjdk.svg
+    - name: Docker
+      color: "#57b6e6"
+      icon: https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@13.20.0/icons/docker.svg
+    - name: Photoshop
+      color: "#4082c3"
+      icon: https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@13.20.0/icons/adobephotoshop.svg
+    - name: Node
+      color: "#333"
+      icon: https://cdn.jsdelivr.net/npm/anzhiyu-blog@2.1.1/img/svg/node-logo.svg
+    - name: Python
+      color: "#fff"
+      icon: https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@13.20.0/icons/python.svg
+    - name: Vite
+      color: "#937df7"
+      icon: https://cdn.jsdelivr.net/npm/anzhiyu-blog@2.0.8/img/svg/vite-logo.svg
+    - name: Vue
+      color: "#b8f0ae"
+      icon: https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@13.20.0/icons/vuedotjs.svg
+    - name: React
+      color: "#222"
+      icon: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"
+    - name: CSS3
+      color: "#2c51db"
+      icon: https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@13.20.0/icons/css3.svg
+    - name: JS
+      color: "#f7cb4f"
+      icon: https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@13.20.0/icons/javascript.svg
+    - name: HTML
+      color: "#e9572b"
+      icon: https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@13.20.0/icons/html5.svg
+    - name: Git
+      color: "#df5b40"
+      icon: https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@13.20.0/icons/git.svg
+    - name: Apifox
+      color: "#e65164"
+      icon: https://cdn.simpleicons.org/apifox

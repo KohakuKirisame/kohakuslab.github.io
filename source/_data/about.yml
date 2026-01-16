@@ -1,0 +1,104 @@
+- class_name: About Me
+  subtitle: I'll light my own path.
+  avatarImg: https://avatars.githubusercontent.com/u/26038081
+  avatarSkills:
+    left:
+      - 🐱 Feed cats
+      - 🧬 Biology Experiment
+      - 📸 Photography
+    right:
+      - 🖥️ AI Research
+      - 🌐 Web Development
+      - 🧠 INTJ
+  name: Kohaku Kirisame
+  description: Researcher in AI for Science | Web Developer | Biology | Photographer | Cat Lover
+  aboutsiteTips:
+    tips: Focus
+    title1: Rooted in
+    title2: Scientific curiosity, turning ideas into discovery
+    word:
+      - AI for Science
+      - Machine Learning
+      - Computational Biology
+      - Wild Animals
+  helloAbout: Bonjour!
+  skillsTips:
+    tips: Skills
+    title: Inspiration strikes
+  careers:
+    tips: Careeer
+    title: Work to understand life in all its forms
+    list:
+      - desc: B.sc., Chemical Biology
+        color: "#357ef5"
+      - desc: B.Eng., Biomedical Engineering (Minor)
+        color: "#FFA6E7"
+    img: https://s.kohaku.icu/2026/01/1768546965.png
+  statistic:
+    link: /archives
+    text: Articles
+    cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
+  map:
+    title: I live in
+    StrengthenTitle: Beijing, China
+    background: https://s.kohaku.icu/2026/01/1768548493.jpg
+    backgroundDark: https://s.kohaku.icu/2026/01/1768548493.jpg
+  selfInfo:
+    selfInfoTips1: Born in
+    selfInfoContentYear: 2003
+    selfInfoTips2: Beihang University
+    selfInfoContent2: Chemical Biology
+    selfInfoTips3: Career
+    selfInfoContent3: Undergraduate
+  personalities:
+    author_name: Architect
+    personality_type: INTJ-A
+    photo_url: https://s.kohaku.icu/2026/01/1768552749.png
+    personality_img: https://raw.githubusercontent.com/Amirgizz/MBTI_Avatars/refs/heads/main/svg/INTJ.svg
+    name_url: https://raw.githubusercontent.com/Amirgizz/MBTI_Avatars/refs/heads/main/svg/INTJ.svg
+  maxim:
+    maxim_tips: Message
+    maxim_top: 君たちに
+    maxim_bottom: 導きの青い星が輝かんどを
+  buff:
+    buff_tips: Buff
+    buff_top: 1 Ragdoll Cat
+    buff_bottom: 2 Maine Coon Cats
+  game:
+    game_tips: Games
+    game_title: Monster Hunter Series
+    game_uid: With Insect Glaive
+    game_bg: https://s.kohaku.icu/2026/01/1768379802.jpg
+  comic:
+    comic_tips: Animes
+    comic_title: Bangumi?
+    comic_list:
+      - name: Made in Abyss
+        href: https://bangumi.tv/subject/203526
+        cover: https://s.kohaku.icu/2026/01/1768549991.jpg
+      - name: クロスアンジュ 天使と竜の輪舞
+        href: https://bangumi.tv/subject/109948
+        cover: https://s.kohaku.icu/2026/01/1768550119.png
+      - name: BEASTARS
+        href: https://bangumi.tv/subject/273843
+        cover: https://s.kohaku.icu/2026/01/1768550256.png
+      - name: Angel Beats!
+        href: https://bangumi.tv/subject/1851
+        cover: https://s.kohaku.icu/2026/01/1768550425.png
+      - name: 日常
+        href: https://bangumi.tv/subject/9912
+        cover: https://s.kohaku.icu/2026/01/1768550600.png
+  like:
+    like_tips: Interests
+    like_title: Wild Animals
+    like_bg: https://s.kohaku.icu/2026/01/1768552072.png
+    like_bottom: Fox, Reptilia, Tarantula, Insecta
+  music:
+    music_tips: Music
+    music_title: ACGN
+    music_bg: https://s.kohaku.icu/2026/01/1768552361.png
+    music_link: https://music.163.com/#/song?id=471992
+  reward_list:
+    - name: Midsummra
+      amount: 1
+      datatime: 2026-01-01

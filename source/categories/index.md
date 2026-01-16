@@ -1,5 +1,7 @@
 ---
-title: categories
-date: 2020-09-14 15:30:30
-type: category
+title: Category
+date: 2024-06-10 12:00:00
+aside: false
+top_img: false
+type: "categories"
 ---
