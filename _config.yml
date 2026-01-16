@@ -170,3 +170,7 @@ envelope_comment:
   front_matter: #【可选】comments页面的 front_matter 配置
     title: Message Board
     comments: true
+
+github_card:
+  inject_css: true                 # Optional: Disable automatic CSS injection
+  priority: 10                      # Optional: Filter execution priority (default: 10)

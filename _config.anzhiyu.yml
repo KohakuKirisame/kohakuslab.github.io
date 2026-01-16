@@ -352,6 +352,10 @@ waline:
   imageUploader: false # 配置为 > 换行后可自定义图片上传逻辑，示例: https://waline.js.org/cookbook/customize/upload-image.html#案例
   # 以下为可选配置，后续若有新增/修改配置参数可在此自行添加/修改
   option:
+    lang: 'en'
+    emoji:
+      - 'https://unpkg.com/@waline/emojis@1.4.0/tw-emoji'
+      - 'https://unpkg.com/@waline/emojis@1.4.0/tieba'
 
 # Twikoo
 # https://github.com/imaegoo/twikoo

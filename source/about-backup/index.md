@@ -31,12 +31,17 @@ Kohaku，取自《千与千寻》中赈早见琥珀主的罗马音“Nigihayami 
 ## Interests
 
 - Cosplay/JK/Lolita
-- Photograph
-- Monster Hunter, Stellaris
+- Photography
+- Monster Hunter, Overwatch, Stellaris
 - Touhou Project, Made in Abyss, Puella Magi Madoka Magica
 - Hardware, Overclocking
 
+![Kiriko Cosplay](https://s.kohaku.icu/2026/01/1768556644.jpg)
+
 ## Contact
 
-- [Email](mailto:kohaku@buaa.edu.cn)
-- [GitHub](https://github.com/KohakuCao)
+- [Email (Academic): kohaku@buaa.edu.cn](mailto:kohaku@buaa.edu.cn)
+- [Email (Personal): i@kohaku.icu](mailto:i@kohaku.icu)
+- [GitHub: https://github.com/KohakuCao](https://github.com/KohakuCao)
+- [ORCID: https://orcid.org/0009-0001-4310-1544](https://orcid.org/0009-0001-4310-1544)
+- [Google Scholar: https://scholar.google.com/citations?user=Mhf15JYAAAAJ](https://scholar.google.com/citations?user=Mhf15JYAAAAJ)

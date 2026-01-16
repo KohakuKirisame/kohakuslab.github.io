@@ -7,4 +7,42 @@ background: "#f8f9fe"
 comments: true
 type: "about"
 ---
-# 11111
+
+## Me
+
+Preferred name: Kohaku Kirisame
+
+(She/Her)
+
+Kohaku, inspired by Nigihayami Kohakunushi from *Spirited Away*, means "amber". Kirisame comes from Kirisame marisa in the *Touhou Project* series.
+
+- Undergraduate in Chemical Biology & Minor in Biomedical Engineering
+- Research interest: AI for Science, ML for Biology, Bioinformatics, Computational Biology, Multi-omics.
+- Communicate in 汉语/English/日本語/Русский язык
+
+## Coding
+
+{% githubCard user:KohakuKirisame %}
+
+|  Language  | Level |
+|:----------:|:-----:|
+|    PHP     |  +++  |
+|  HTML/CSS  |  +++  |
+|   Python   |  +++  |
+|    SQL     |  ++   |
+| TypeScript |  ++   |
+|   C/C++    |   +   |
+|   MATLAB   |   +   |
+
+## Interests
+
+- Cosplay/JK/Lolita
+- Photograph
+- Monster Hunter, Stellaris
+- Touhou Project, Made in Abyss, Puella Magi Madoka Magica
+- Hardware, Overclocking
+
+## Contact
+
+- [Email](mailto:kohaku@buaa.edu.cn)
+- [GitHub](https://github.com/KohakuCao)
