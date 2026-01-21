@@ -55,7 +55,7 @@
     personality_type: INTJ-A
     photo_url: https://s.kohaku.icu/2026/01/1768552749.png
     personality_img: https://raw.githubusercontent.com/Amirgizz/MBTI_Avatars/refs/heads/main/svg/INTJ.svg
-    name_url: https://raw.githubusercontent.com/Amirgizz/MBTI_Avatars/refs/heads/main/svg/INTJ.svg
+    name_url: https://www.16personalities.com/intj-personality
   maxim:
     maxim_tips: Message
     maxim_top: 君たちに
@@ -67,7 +67,7 @@
   game:
     game_tips: Games
     game_title: Monster Hunter Series
-    game_uid: With Insect Glaive
+    game_uid: 'With Insect Glaive'
     game_bg: https://s.kohaku.icu/2026/01/1768379802.jpg
   comic:
     comic_tips: Animes
@@ -100,5 +100,5 @@
     music_link: https://music.163.com/#/song?id=471992
   reward_list:
     - name: Midsummra
-      amount: 1
+      amount: 1024
       datatime: 2026-01-01
