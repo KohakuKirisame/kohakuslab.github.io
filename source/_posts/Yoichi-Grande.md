@@ -2,7 +2,7 @@
 title: ニッカ余市 Nikka Yoichi Grande Edition
 categories: Alcohol
 date: 2026-04-28 00:39:10
-tags: [Alcohol, Whisky, Japanese Whisky, Single Malt, Travel Exclusive, Non-Chill Filtered, Peated]
+tags: [Alcohol, Whisky, Japanese Whisky, Single Malt, Travel Exclusive, Non-Chill Filtered, Peated, NAS]
 cover: https://s.kohaku.icu/2026/05/1778951361412.jpg
 
 ---
