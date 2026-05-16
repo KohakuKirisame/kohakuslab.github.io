@@ -48,6 +48,6 @@ Kohaku, inspired by Nigihayami Kohakunushi from *Spirited Away*, means "amber". 
 
 - [Email (Academic): kohaku@buaa.edu.cn](mailto:kohaku@buaa.edu.cn)
 - [Email (Personal): i@kohaku.icu](mailto:i@kohaku.icu)
-- [GitHub: https://github.com/KohakuCao](https://github.com/KohakuCao)
+- [GitHub: https://github.com/KohakuKirisame](https://github.com/KohakuKirisame)
 - [ORCID: https://orcid.org/0009-0001-4310-1544](https://orcid.org/0009-0001-4310-1544)
 - [Google Scholar: https://scholar.google.com/citations?user=Mhf15JYAAAAJ](https://scholar.google.com/citations?user=Mhf15JYAAAAJ)
