@@ -3,6 +3,7 @@ title: Säntis Malt Edition Dreifaltigkeit
 date: 2026-05-15 21:28:17
 tags: [Alcohol, Whisky, Swiss Whisky, Single Malt, Non-Chill Filtered, NAS, Peated]
 categories: Alcohol
+cover: https://s.kohaku.icu/2026/05/1778991569515.jpg
 ---
 ![Säntis Malt Edition Dreifaltigkeit](https://s.kohaku.icu/2026/05/1778991569515.jpg)
 
