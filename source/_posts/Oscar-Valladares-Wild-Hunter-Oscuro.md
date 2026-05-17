@@ -2,7 +2,7 @@
 title: Oscar Valladares Wild Hunter Oscuro
 date: 2026-05-16 21:29:47
 categories: Cigar
-tags: [Cigar, Non-Cuban]
+tags: [Cigar, Non-Cuban, Oscuro, Honduras]
 cover: https://s.kohaku.icu/2026/05/1778944468195.jpg
 ---
 
