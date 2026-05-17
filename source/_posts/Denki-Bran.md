@@ -1,6 +1,6 @@
 ---
 title: 電気ブラン Denki Bran
-date: 2026-05-17 12:08:22
+date: 2026-05-13 15:59:22
 tags: [Liqueur, Japan]
 categories: Alcohol
 cover: https://s.kohaku.icu/2026/05/1778991021603.jpg
