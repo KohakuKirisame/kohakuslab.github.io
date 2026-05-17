@@ -3,6 +3,7 @@ title: Conv-Transformer Representation Learning for 32-Band Hyperspectral Pixel 
 date: 2026-05-17 13:45:30
 tags: [Machine Learning, Deep Learning, Hyperspectral Imaging, Representation Learning, Convolutional Neural Networks, Transformers, Autoencoders, Class Imbalance, Data Engineering, BUAA]
 categories: Coding
+cover: https://s.kohaku.icu/2026/05/1778998960525.jpg
 ---
 ## 北京航空航天大学机器学习（宇航学院）课程小组大作业。
 
