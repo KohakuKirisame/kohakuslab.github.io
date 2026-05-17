@@ -174,3 +174,6 @@ envelope_comment:
 github_card:
   inject_css: true                 # Optional: Disable automatic CSS injection
   priority: 10                      # Optional: Filter execution priority (default: 10)
+
+sitemap:
+  path: sitemap.xml
