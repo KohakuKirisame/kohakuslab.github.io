@@ -7,7 +7,7 @@ cover: https://s.kohaku.icu/2026/05/1778998960525.jpg
 ---
 ## 北京航空航天大学机器学习（宇航学院）课程小组大作业。
 
-Some posts are only available in English, and this is one of them.
+有些文章只以英文提供。Some articles are only available in English, and this is one of them.一部の記事は英語でしか利用できません。これもその一つです。
 
 This post records our group project for fine-grained land-cover classification from hyperspectral pixel spectra. The code is available at [KohakuKirisame/group-task4-Hyperspectral](https://github.com/KohakuKirisame/group-task4-Hyperspectral). The short version is simple: each pixel gives us a 32-dimensional spectral vector, and we ask a neural model to infer the land-cover class from that spectrum alone. The longer version, naturally, involves a convolutional stem, a Transformer encoder, an autoencoding auxiliary task, class imbalance, memmap files, and the ancient machine-learning ritual of watching TensorBoard curves while pretending to be calm.
 
