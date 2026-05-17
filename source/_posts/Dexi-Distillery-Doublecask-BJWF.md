@@ -1,5 +1,5 @@
 ---
-title: Dexi Distillery Double Cask Beijing Whiskey Festival Limited 2026
+title: 德熙融萃双桶 Dexi Distillery Double Cask Beijing Whiskey Festival Limited 2026
 date: 2026-05-17 21:12:53
 tags: [Alcohol, Whisky, Single Malt, Cask Strength, Non-Chill Filtered, Double Cask, Limited Release, Chinese Whisky]
 categories: Alcohol
