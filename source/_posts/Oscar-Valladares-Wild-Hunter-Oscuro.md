@@ -8,6 +8,7 @@ cover: https://s.kohaku.icu/2026/05/1778944468195.jpg
 
 ![Oscar Valladares Wild Hunter Oscuro](https://s.kohaku.icu/2026/05/1778944468195.jpg)
 
+- Size : 6" x 52 Toro
 - Strength: Medium to Full
 - Wrapper: Honduras
 - Binder: Honduras
