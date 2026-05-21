@@ -1,7 +1,9 @@
 ---
 title: 长城GX雄师荣耀 Great Wall GX Lion's Glory
 date: 2026-05-21 21:30:24
-tags:
+tags: [Cigar, Non-Cuban, Toro, Chinese]
+categories: Cigar
+cover: https://s.kohaku.icu/2026/05/1779371151105.jpg
 ---
 ![长城GX雄师荣耀 Great Wall GX Lion's Glory](https://s.kohaku.icu/2026/05/1779371151105.jpg)
 
