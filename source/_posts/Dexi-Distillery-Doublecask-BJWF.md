@@ -8,7 +8,7 @@ cover: https://s.kohaku.icu/2026/05/1779023614044.jpg
 ![Dexi Distillery Double Cask Beijinng Whiskey Festival Limited 2026](https://s.kohaku.icu/2026/05/1779023614044.jpg)
 
 - Category: Chinese Single Malt Whisky
-- Distillery: Dexi Distillery, China
+- Distillery: Dexi Distillery, Fujian, China
 - Volume: 500 ml
 - ABV: 59%
 - Features: Cask Strength, Non-chill Filtered, Double Cask Matured in ex-Bourbon Casks and Yiyuan Winery Wine Casks, Limited Bottling (1 of 208)
