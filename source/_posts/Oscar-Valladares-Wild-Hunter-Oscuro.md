@@ -18,7 +18,7 @@ cover: https://s.kohaku.icu/2026/05/1778944468195.jpg
 
 结构方面，这支雪茄卷制较紧，吸阻略大，对抽吸节奏要求较高。紧实的填充带来了较慢的燃烧速度和扎实的烟气表现，但也使其偶尔出现偏烧，需要适时轻微修正。灰质表现优秀，灰柱致密、稳定，具备良好的持灰能力，也反映出整体卷制和茄芯结构相当扎实。
 
-配饮：Säntis Malt Edition Dreifaltigkeit。雪茄原本的雪松、烤坚果、泥土与后段胡椒被进一步推向深色系。酒中的烟熏、培根、篝火、潮湿木柴与甜麦芽感，会与雪茄的 Oscuro 甜感、干木和胡椒相互咬合；前段能强化香草与木质甜，中段则把烤坚果拉向烟熏榛子、烤麦芽与炭烤坚果的方向。进入后段后，酒体的烟熏肉感和雪茄的胡椒、木炭、皮革气息叠加，风味变得更厚、更粗粝，也更有“阿尔卑斯森林篝火”式的野性。
+配饮：[Säntis Malt Edition Dreifaltigkeit](https://kohaku.icu/2026/05/4b3e8cd25baf/)。雪茄原本的雪松、烤坚果、泥土与后段胡椒被进一步推向深色系。酒中的烟熏、培根、篝火、潮湿木柴与甜麦芽感，会与雪茄的 Oscuro 甜感、干木和胡椒相互咬合；前段能强化香草与木质甜，中段则把烤坚果拉向烟熏榛子、烤麦芽与炭烤坚果的方向。进入后段后，酒体的烟熏肉感和雪茄的胡椒、木炭、皮革气息叠加，风味变得更厚、更粗粝，也更有“阿尔卑斯森林篝火”式的野性。
 
 After purchasing it from the duty-free counter at HKG, I let it rest in the humidor for about three weeks. The opening third showed a gentle sweetness, beginning with light notes of vanilla, cedar, and a faint cocoa tone. The smoke was not especially assertive, but the layering was clear. Moving into the early middle section, the sweet woody profile quickly shifted toward deeper roasted flavors, with roasted nuts, dry wood, a touch of coffee, and earthy notes gradually taking the lead. The overall character became thicker and more composed. In the later middle section, the strength rose noticeably, and the pepper note became stronger with a certain sharpness. If the smoking pace was slightly too fast, the spice, charred bitterness, and charcoal character were amplified, so it required more careful control of draw frequency and temperature.
 
