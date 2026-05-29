@@ -1,7 +1,9 @@
 ---
 title: Davidoff Escurio Robusto
 date: 2026-05-29 20:49:49
-tags:
+tags: [Cigar, Non-Cuban, Robusto, Davidoff]
+categories: Cigar
+cover: https://s.kohaku.icu/2026/05/1780059322427.jpg
 ---
 ![Davidoff Escurio Robusto](https://s.kohaku.icu/2026/05/1780059322427.jpg)
 - Size : 4.5" x 54 Robusto

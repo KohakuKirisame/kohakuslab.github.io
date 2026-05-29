@@ -1,7 +1,7 @@
 ---
 title: 噶瑪蘭珍選No.1 Kavalan Distillery Select No.1
 date: 2026-05-29 10:51:41
-tags: [Alcohol, Whisky, Single Malt, Taiwanese Whisky, Kavalan]
+tags: [Alcohol, Whisky, Single Malt, Taiwanese Whisky, Kavalan, NAS, Refill Cask Matured]
 categories: Alcohol
 cover: https://s.kohaku.icu/2026/05/1780059322424.jpg
 ---
