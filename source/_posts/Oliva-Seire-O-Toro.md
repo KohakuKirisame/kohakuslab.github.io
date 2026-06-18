@@ -3,7 +3,7 @@ title: Oliva Serie O Toro
 date: 2026-06-14 21:11:39
 tags: [Cigar, Non-Cuban, Toro, Nicaragua]
 categories: Cigar
-cover: 
+cover: https://s.kohaku.icu/2026/06/1781442468209.jpg
 ---
 ![Oliva Serie O Toro](https://s.kohaku.icu/2026/06/1781442468209.jpg)
 
