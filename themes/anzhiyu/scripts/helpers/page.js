@@ -7,7 +7,7 @@
 
 "use strict";
 
-const { stripHTML, escapeHTML, prettyUrls } = require("hexo-util");
+const { stripHTML, escapeHTML, unescapeHTML, prettyUrls } = require("hexo-util");
 const crypto = require("crypto");
 
 hexo.extend.helper.register('page_description', function () {
@@ -15,10 +15,10 @@ hexo.extend.helper.register('page_description', function () {
   let description = page.description || page.content || page.title || config.description
 
   if (description) {
-    description = escapeHTML(stripHTML(description).substring(0, 150)
+    return unescapeHTML(stripHTML(description))
+      .replace(/\s+/g, ' ')
       .trim()
-    ).replace(/\n/g, ' ')
-    return description
+      .substring(0, 160)
   }
 })
 

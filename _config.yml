@@ -5,8 +5,25 @@
 # Site
 title: Kohaku's Lab
 subtitle: 狐の鉤爪を解き放て
-description: ''
+description: Kohaku Kirisame Blog, find amazing things about biology, machine learning, programming, cigars and whisky.
 keywords:
+  - Kohaku's Lab
+  - Kohaku Kirisame
+  - 雪茄
+  - Cigar
+  - 威士忌
+  - Whisky
+  - 酒类品鉴
+  - 编程
+  - 机器学习
+  - Machine Learning
+  - Biology
+  - Computaional Biology
+  - Neuroscience
+  - Bioinformatics
+  - 生物学
+  - 计算生物学
+  - 生物信息
 author: Kohaku Kirisame
 language: en
 timezone: 'Asia/Shanghai'
@@ -177,3 +194,14 @@ github_card:
 
 sitemap:
   path: sitemap.xml
+  rel: false
+  tags: true
+  categories: true
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  order_by: -date
+  icon: /favicon.ico
+  autodiscovery: true

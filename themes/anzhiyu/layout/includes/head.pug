@@ -9,9 +9,10 @@
 - var tabTitle = is_home() || !pageTitle ? config.title + isSubtitle : pageTitle + ' | ' + config.title
 
 - var pageKeywords
-- if (page.keywords) pageKeywords = Array.isArray(page.keywords) ? (page.keywords).join(',') :  ([]).join(',') || page.keywords
-- else if (page.tags && page.tags.length) pageKeywords = page.tags.data.map(function(tag) {return tag.name;}).join(',')
-- else pageKeywords = Array.isArray(config.keywords) ? (config.keywords).join(','):  ([]).join(',') || config.keywords
+- var siteKeywords = Array.isArray(config.keywords) ? config.keywords : (config.keywords ? [config.keywords] : [])
+- if (page.keywords) pageKeywords = (Array.isArray(page.keywords) ? page.keywords : [page.keywords]).join(',')
+- else if (page.tags && page.tags.length) pageKeywords = page.tags.data.map(function(tag) { return tag.name }).join(',')
+- else pageKeywords = [page.tag || page.category].concat(siteKeywords).filter(Boolean).filter(function(keyword, index, keywords) { return keywords.indexOf(keyword) === index }).join(',')
 - var pageAuthor = config.email ? config.author + ',' + config.email : config.author
 - var pageCopyright = config.copyright || config.author
 - var themeColorLight = theme.theme_color && theme.theme_color.enable && theme.theme_color.meta_theme_color_light || '#ffffff'
@@ -38,9 +39,11 @@ meta(name="apple-mobile-web-app-status-bar-style", content=themeColor)
 
 //- Open_Graph
 include ./head/Open_Graph.pug
+include ./head/structured-data.pug
 
 !=favicon_tag(theme.favicon || config.favicon)
 link(rel="canonical" href=urlNoIndex())
+link(rel="sitemap" type="application/xml" title="Sitemap" href=full_url_for('/sitemap.xml'))
 
 //- 預解析
 !=partial('includes/head/preconnect', {}, {cache: true})

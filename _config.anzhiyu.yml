@@ -602,13 +602,14 @@ google_adsense:
 # Verification (站长验证)
 # --------------------------------------
 
-site_verification:
-  - name: google-site-verification
-    content: xxx
-  - name: baidu-site-verification
-    content: code-xxx
-  - name: msvalidate.01
-    content: xxx
+# 添加真实验证码后再启用，避免输出无效的占位验证信息。
+site_verification: []
+#  - name: google-site-verification
+#    content: your-google-verification-code
+#  - name: baidu-site-verification
+#    content: your-baidu-verification-code
+#  - name: msvalidate.01
+#    content: your-bing-verification-code
 
 # Beautify/Effect (美化/效果)
 # --------------------------------------
