@@ -1,0 +1,60 @@
+-
+  const schemaUrl = urlNoIndex()
+  const schemaRootUrl = full_url_for('/')
+  const schemaAuthorUrl = full_url_for('/about/')
+  const schemaDescription = page_description()
+  const schemaImage = (page.cover || theme.avatar.img) ? full_url_for(page.cover || theme.avatar.img) : ''
+  const schemaTags = page.tags && page.tags.length ? page.tags.data.map(function(tag) { return tag.name }) : []
+  const websiteId = schemaRootUrl + '#website'
+  const authorId = schemaAuthorUrl + '#person'
+  const webPageId = schemaUrl + '#webpage'
+  const schemaGraph = [
+    {
+      '@type': 'WebSite',
+      '@id': websiteId,
+      url: schemaRootUrl,
+      name: config.title,
+      description: config.description,
+      inLanguage: config.language,
+      publisher: { '@id': authorId }
+    },
+    {
+      '@type': 'Person',
+      '@id': authorId,
+      name: config.author,
+      url: schemaAuthorUrl
+    },
+    {
+      '@type': 'WebPage',
+      '@id': webPageId,
+      url: schemaUrl,
+      name: pageTitle,
+      description: schemaDescription,
+      inLanguage: config.language,
+      isPartOf: { '@id': websiteId }
+    }
+  ]
+
+  if (is_post()) {
+    const articleId = schemaUrl + '#article'
+    const article = {
+      '@type': 'BlogPosting',
+      '@id': articleId,
+      mainEntityOfPage: { '@id': webPageId },
+      headline: pageTitle,
+      description: schemaDescription,
+      datePublished: date_xml(page.date),
+      dateModified: date_xml(page.updated || page.date),
+      author: { '@id': authorId },
+      publisher: { '@id': authorId },
+      inLanguage: config.language,
+      url: schemaUrl
+    }
+
+    if (schemaImage) article.image = [schemaImage]
+    if (schemaTags.length) article.keywords = schemaTags
+    schemaGraph[2].mainEntity = { '@id': articleId }
+    schemaGraph.push(article)
+  }
+
+script(type="application/ld+json")!= JSON.stringify({ '@context': 'https://schema.org', '@graph': schemaGraph }).replace(/</g, '\\u003c')
