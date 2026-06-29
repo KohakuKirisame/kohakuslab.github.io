@@ -596,13 +596,8 @@ google_adsense:
 # Verification (站长验证)
 # --------------------------------------
 
-site_verification:
-  - name: google-site-verification
-    content: xxx
-  - name: baidu-site-verification
-    content: code-xxx
-  - name: msvalidate.01
-    content: xxx
+# Add real verification codes in the site theme config before enabling.
+site_verification: []
 
 # Beautify/Effect (美化/效果)
 # --------------------------------------
