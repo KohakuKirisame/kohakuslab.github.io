@@ -1,7 +1,7 @@
 ---
 title: AJ Fernandez New World Oscuro Toro 
 date: 2026-05-22 20:35:06
-tags: [Cigar, Non-Cuban, Toro, Nicaraguan]
+tags: [Cigar, Non-Cuban, Toro, Nicaragua]
 categories: Cigar
 cover: https://s.kohaku.icu/2026/05/1779453454744.jpg
 ---

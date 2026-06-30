@@ -1,7 +1,7 @@
 ---
 title: Gurkha Cellar Reserve 15 Toro
 date: 2026-05-18 21:00:00
-tags: [Cigar, Non-Cuban, Toro, Dominican]
+tags: [Cigar, Non-Cuban, Toro, Dominica]
 categories: Cigar
 cover: https://s.kohaku.icu/2026/05/1779108078323.jpg
 ---
